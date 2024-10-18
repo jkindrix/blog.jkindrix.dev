@@ -1,72 +1,56 @@
-# Site Metadata
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: "Justin Kindrix's Blog"
 email: "contact@jkindrix.dev"
 description: >-
   Insights, tutorials, and updates from Justin Kindrix on software development, architecture, and personal projects.
-baseurl: "" # Leave empty if the blog is not in a subdirectory
-url: "https://blogs.jkindrix.dev" # Full URL to your site
-twitter_username: "jkindrix"
-github_username: "jkindrix"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blogs.jkindrix.dev" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jkindrix
+github_username: jkindrix
 
-# Build Settings
+# Build settings
 theme: minima
 plugins:
-  - jekyll-feed        # Generates RSS feed
-  - jekyll-seo-tag     # Improves SEO with meta tags
-  - jekyll-sitemap     # Generates a sitemap for search engines
-  - jekyll-paginate    # Adds pagination support
-  - jekyll-archives    # Provides archive pages by year, month, etc.
+  - jekyll-feed   # Provides an RSS feed for the blog
+  - jekyll-seo-tag # Adds SEO-friendly tags for better search engine optimization
+  - jekyll-sitemap # Generates a sitemap.xml file for improved indexing
 
-# Environment-specific settings
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
   - node_modules/
-  - vendor/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - README.md
-incremental: true # Enables incremental regeneration for faster local builds
-
-# Sass/CSS
-sass:
-  style: compressed # Compresses CSS output for faster loading
-
-# Default Front Matter
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Justin Kindrix"
-  - scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: "page"
-
-# Collections
-collections:
-  tutorials:
-    output: true
-  projects:
-    output: true
-
-# URLs & Permalinks
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: "/page:num/"
-
-# Markdown Options
-markdown: kramdown
-kramdown:
-  input: GFM # GitHub Flavored Markdown
-  auto_ids: true
-  syntax_highlighter: rouge
-
-# Development & Production Environment Setup
-environments:
-  development:
-    url: "http://localhost:4000"
-    show_drafts: true
-  production:
-    url: "https://blogs.jkindrix.dev"
