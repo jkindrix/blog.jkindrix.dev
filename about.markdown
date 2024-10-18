@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hello! I'm Justin Kindrix, a software engineer with a passion for building efficient, scalable, and maintainable solutions. This blog is where I share my thoughts, tutorials, and insights on topics ranging from software development, architecture, and best practices, to personal projects and experiences in the tech world.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## What You'll Find Here
 
+On this blog, I write about:
+- **Software Development**: Tutorials, guides, and tips on programming languages, frameworks, and tools.
+- **Architecture & Best Practices**: Insights into designing scalable and maintainable systems.
+- **Projects**: Updates and details on my personal projects and contributions.
+- **Industry Insights**: Thoughts on emerging trends, technologies, and best practices.
 
-[jekyll-organization]: https://github.com/jekyll
+## Connect with Me
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/justin-kindrix/) or explore my projects on [GitHub](https://github.com/jkindrix). I’m always open to discussions, collaborations, and feedback!
+
+Thank you for visiting my blog. I hope you find the content here helpful and engaging.
