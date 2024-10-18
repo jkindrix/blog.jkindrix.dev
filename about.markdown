@@ -18,6 +18,6 @@ On this blog, I write about:
 
 ## Connect with Me
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/justin-kindrix/) or explore my projects on [GitHub](https://github.com/jkindrix). I’m always open to discussions, collaborations, and feedback!
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/jkindrix) or explore my projects on [GitHub](https://github.com/jkindrix). I’m always open to discussions, collaborations, and feedback!
 
 Thank you for visiting my blog. I hope you find the content here helpful and engaging.
