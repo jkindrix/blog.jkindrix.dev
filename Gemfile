@@ -1,8 +1,8 @@
 # Specify the source for Ruby gems
 source "https://rubygems.org"
 
-# Use the .gemspec to manage gem dependencies
-gemspec
+# Theme for the Jekyll site
+gem "jekyll-theme-chirpy", "~> 7.1", ">= 7.1.1"
 
 # Specify versioned dependencies
 gem "html-proofer", "~> 5.0", group: :test
