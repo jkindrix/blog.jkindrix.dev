@@ -11,9 +11,6 @@ gem "html-proofer", "~> 5.0", group: :test
 # Manage which Jekyll version is used to run the site
 gem "jekyll", "~> 4.3.4"
 
-# Default theme for new Jekyll sites (can be changed as needed)
-gem "minima", "~> 2.5"
-
 # Optional: Uncomment this line if using GitHub Pages to manage dependencies automatically
 # gem "github-pages", group: :jekyll_plugins
 
